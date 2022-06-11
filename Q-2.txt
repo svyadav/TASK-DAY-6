@@ -1,0 +1,314 @@
+
+ <!-- Find the culprit
+fix.html 
+Ans:Culprit was on double quotes -->
+
+ <!-- <!DOCTYPE html>
+<html>
+<body>
+ <script>
+ alert( "I'm JavaScript!")
+ </script>
+ Whats the error in this ?
+</body>
+</html>  -->
+
+<!-- ------------------------------------------------------------- -->
+
+
+
+<!-- Find the culprit and invoke the alert
+fix.html
+Ans:Culprit was on double quotes -->
+<!-- 
+ <!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>  -->
+
+<!-- ---------------------------------------------------------- -->
+
+
+<!-- Explain the below how it works
+
+Ans:
+1.Firstly It will trrigger this alert("I'm JavaScript!");
+2.Secondly It will trigger alert('Hello'),Even if we don't put semicolon It works fine.
+3.Thirdly It will trigger alert(`Wor
+ld`),As here backtick is used hence it will print the entire data as it is as provided is inside backtick.
+4.Lastly it will trigger alert(3 +
+1
++ 2), Here it will add all the number and provide us the result. -->
+
+
+
+<!-- --------------------------------------------------------------------- -->
+
+
+
+<!-- Fix the below to alert Guvi geek
+Ans---
+
+let admin=9, fname=10.5; 
+fname = "Guvi";
+lname = "geek"
+admin = fname+" "+lname;
+alert( admin ); // "Guvi geek" -->
+
+<!-- ------------------------------------------------------------------------------ -->
+
+
+
+<!-- 
+Fix the below to alert hello Guvi geek
+Ans:
+let fname=10.5; 
+fname = "Guvi";
+lname = "geek"
+let name = fname+lname;
+alert("hello "+ name ); -->
+
+
+
+<!-- -------------------------------------------------------------------- -->
+
+
+<!-- Fix the below to alert sum of two numbers
+
+Ans:
+let a = parseInt(prompt("First number?"));
+let b = parseInt(prompt("Second number?"));
+alert(a + b); -->
+
+
+<!-- --------------------------------------------------------------------------- -->
+
+
+<!-- If you run the below scritpt you will get “Code is Blasted”
+
+Explain Why the Code is blasted and how to diffuse it and get “Diffused”.
+
+
+Ans: Because it was string and it was comparing only 2 with 1.If we convert the string to number then we will get required output
+
+var a = 2> 12;
+if (a) {
+  console.log("Code is Blasted")
+}
+else
+{
+  console.log("Diffused") 
+} -->
+
+
+<!-- ------------------------------------------------------------------- -->
+
+
+<!-- How to get the success in console.
+Ans- -->
+<!-- 
+let a = parseInt(prompt("Enter a number?"));
+//Don't modify any code below this
+if (a) {
+ console.log( 'OMG it works for any number inc 0' );
+}
+else
+{
+ console.log( "Success" );
+} -->
+
+
+<!-- -------------------------------------------------------------------- -->
+
+
+<!-- How to get the correct score in console.
+Ans-
+
+let value = parseInt(prompt('How many runs you scored in this ball'));
+if (value === 4) {
+      console.log("You hit a Four");
+} else if (value === 6) {
+      console.log("You hit a Six");
+} else {
+      console.log("I couldn't figure out");
+} -->
+
+
+
+
+<!-- ---------------------------------------------------------------------- -->
+
+<!-- Fix the code to welcome the Employee
+Ans--
+let login = 'Employee';
+let message = (login == 'Employee') ? 'welcome Employee':
+  (login == 'Director') ? 'Greetings' :
+  (login == '') ? 'No login' :
+  '';
+console.log(message); -->
+
+
+
+
+
+
+
+
+<!-- ----------------------------------------------------------------- -->
+
+
+
+<!-- Fix the code to welcome the boss
+Ans-
+let message;
+if (null ||2 || undefined)
+{
+ message = "welcome boss";
+}
+else
+{
+  message = "Go away";
+}
+  console.log(message); -->
+
+
+
+
+  <!-- ---------------------------------------------------------------- -->
+
+
+
+
+  <!-- Fix the code to welcome the boss
+  Ans--
+
+  let message;
+let lock;
+//Dont change any code below this 
+if (null || lock || undefined ) 
+{
+  message = "Go away";
+}
+else
+{
+ message = "welcome";
+}
+  console.log(message); -->
+
+
+
+
+  <!-- --------------------------------------------------------------- -->
+
+
+  <!-- Fix the code to welcome the boss
+  Ans-
+
+  let message;
+let lock;
+//Dont change any code below this
+if (lock && " " || undefined )
+{
+  message = "Go away";
+}
+else
+{
+ message = "welcome";
+}
+console.log(message); -->
+
+
+
+<!-- ------------------------------------------------------------------------ -->
+
+
+<!-- 
+Change the code to print
+Ans--
+let i = 3;
+while (i) {
+  console.log(i--);
+} -->
+
+
+<!-- --------------------------------------------------------------------------------- -->
+
+
+
+<!-- Change the code to print 1 to 10 in 4 lines
+Ans--- -->
+<!-- let num=10;
+for(let i=1;i<=10;i++){
+    console.log(i);
+} -->
+
+
+
+
+
+
+<!-- ----------------------------------------------------------------------------------- -->
+
+
+<!-- Change the code to print even numbers
+Ans--
+
+for (let num = 2; num <= 20; num += 2) {
+  console.log(num)
+} -->
+
+
+<!-- ------------------------------------------------------------------------------ -->
+
+
+<!-- Change the code to print all the gifts
+Ans--
+let gifts = ["teddy bear", "drone", "doll"];
+for (let i = 0; i < gifts.length; i++) {
+  console.log(`Wrapped ${gifts[i]} and added a bow!`);
+} -->
+
+
+
+<!-- ----------------------------------------------------------------------------- -->
+
+
+
+<!-- Fix the code to disarm the bomb.
+Ans--
+
+
+let countdown = 100;
+while (countdown > 0) {
+  countdown--;
+  if(countdown==0){
+    countdown=1;
+    console.log("Bomb disalarm");
+    break;
+  }
+  if(countdown == 0)
+  {
+   console.log("bomb triggered");
+  }
+} -->
+
+
+
+
+
+<!-- 
+-------------------------------------------------------------------- -->
+
+
+
+<!-- Whats the msg printed and why?
+Ans--
+It will print Hi as output because string("0") is considered as true and only 0 is considered as false. -->
+
+
+<!-- ---------------------------------------------------------------------- -->
+
+
+
